@@ -23,7 +23,7 @@ $BASE/issues_audit $REPO --quiet
 $BASE/generate_views $REPO --quiet
 
 # irstats2
-$BASE/../archives/$REPO/bin/stats/process_stats
+$BASE/../archives/$REPO/bin/stats/process_stats $REPO
 
 # user / system time
 times
